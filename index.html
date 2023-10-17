@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,800&display=swap" rel="stylesheet">
     <title>Projeto JokenPô</title>
 </head>
+
 <body>
-    
+    <div class="container">
+
+        <h2>JokenPô</h2>
+
+        <div class="buttons">
+            <button onclick="rotate()" id="rock">&#x1F44A;&#x1F3FD;</button>
+            <button onclick="rotate()" id="paper">&#x1F590;&#x1F3FB;</button>
+            <button onclick="rotate()" id="scissors">&#x270C;&#x1F3FC;</button>
+        </div>
+        <p class="result"></p>
+
+        <h3 class="your-score">Sua pontuação: <span class="my-color">0</span> </h3>
+        <h3 class="machine-score">Pontuação de Alexa: <span class="machine-color">0</span> </h3>
+
+    </div>
 </body>
+
+
 </html>

@@ -1,0 +1,66 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("/img/sven-V7WkmXntA8M-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+.container {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    text-align: center;
+}
+button {
+    padding: 13px;
+    font-size: 70px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin: 20px 30px;
+    transition: opacity 0.5s ease-in-out;
+    
+}
+h3 {
+    font-weight: 300;
+    font-size: 30px;
+}
+#rock {
+    background-color: #F4A460;
+}
+#paper{
+    background-color:#FF00FF ;
+}
+#scissors{
+    background-color:#FFFF00 ;
+}
+.my-color {
+    color: #0F0;
+    font-size: 40px;
+}
+.machine-color {
+    color: #6959CD;
+    font-size: 40px;
+}
+button:active{
+    opacity: 0.8;
+}
+ button:hover{
+    opacity: 0.6;
+} 
+p {
+    font-weight: bold;
+}
