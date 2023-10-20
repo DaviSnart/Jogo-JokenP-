@@ -17,17 +17,17 @@
         <h2>JokenPô</h2>
 
         <div class="buttons">
-            <button onclick="rotate()" id="rock">&#x1F44A;&#x1F3FD;</button>
-            <button onclick="rotate()" id="paper">&#x1F590;&#x1F3FB;</button>
-            <button onclick="rotate()" id="scissors">&#x270C;&#x1F3FC;</button>
+            <button id="rock" onclick="playHuman ('rock')"> &#x1F44A;&#x1F3FD;</button>
+            <button id="paper" onclick="playHuman ('paper')"> &#x1F590;&#x1F3FB;</button>
+            <button id="scissors" onclick="playHuman ('scissors')"> &#x270C;&#x1F3FC;</button>
         </div>
         <p class="result"></p>
 
-        <h3 class="your-score">Sua pontuação: <span class="my-color">0</span> </h3>
-        <h3 class="machine-score">Pontuação de Alexa: <span class="machine-color">0</span> </h3>
+        <h3 class="human-core">Sua pontuação: <span class="your-score">0</span> </h3>
+        <h3 class="machine-score-text">Pontuação de Alexa: <span class="machine-score">0</span> </h3>
 
     </div>
 </body>
-
+<script src="./script.js"></script>
 
 </html>

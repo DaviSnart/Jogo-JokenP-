@@ -47,13 +47,13 @@ h3 {
 #scissors{
     background-color:#FFFF00 ;
 }
-.my-color {
+.your-score {
     color: #0F0;
-    font-size: 40px;
+    font-size: 45px;
 }
-.machine-color {
+.machine-score{
     color: #6959CD;
-    font-size: 40px;
+    font-size: 45px;
 }
 button:active{
     opacity: 0.8;
