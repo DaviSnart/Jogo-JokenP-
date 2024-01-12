@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("/img/sven-V7WkmXntA8M-unsplash.jpg");
+    background: url("./img/sven-V7WkmXntA8M-unsplash.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
